@@ -1,0 +1,20 @@
+#<IfModule mod_rewrite.c>
+
+#RewriteEngine on
+#RewriteBase /
+#RewriteCond %{HTTP_HOST} ^mail.touncon.com
+#RewriteRule ^/(.*) https://gator3084.hostgator.com:2083/cpsess8630491191/frontend/x3/webmaillogin.html [NC,L]
+
+#</IfModule>
+
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+
+# END WordPress

@@ -1,0 +1,37 @@
+[23-Apr-2014 21:57:41] PHP Warning:  in_array() [<a href='function.in-array'>function.in-array</a>]: Wrong datatype for second argument in /home2/rupert3/touncon/www/wp-admin/includes/template.php on line 233
+[23-Apr-2014 21:57:41] PHP Warning:  in_array() [<a href='function.in-array'>function.in-array</a>]: Wrong datatype for second argument in /home2/rupert3/touncon/www/wp-admin/includes/template.php on line 233
+[23-Apr-2014 22:01:44] PHP Warning:  in_array() [<a href='function.in-array'>function.in-array</a>]: Wrong datatype for second argument in /home2/rupert3/touncon/www/wp-admin/includes/template.php on line 233
+[23-Apr-2014 22:01:44] PHP Warning:  in_array() [<a href='function.in-array'>function.in-array</a>]: Wrong datatype for second argument in /home2/rupert3/touncon/www/wp-admin/includes/template.php on line 233
+[04-Jun-2014 01:10:49] WordPress database error Unknown column 's1.value' in 'where clause' for query 
+			SELECT SUM(totalprice)
+			FROM wp_wpsc_purchase_logs AS p
+			WHERE 1 = 1 AND (s1.value LIKE '%john%' OR s2.value LIKE '%john%' OR s3.value LIKE '%john%' OR p.track_id = 'john') AND p.processed IN (2, 3, 4) 
+		 made by require_once('wp-admin/admin.php'), do_action('load-dashboard_page_wpsc-purchase-logs'), call_user_func_array, wpsc_load_purchase_logs_page, WPSC_Purchase_Log_Page->__construct, WPSC_Purchase_Log_Page->controller_default, WPSC_Purchase_Log_List_Table->prepare_items
+[04-Jun-2014 01:10:49] WordPress database error Unknown column 's1.value' in 'where clause' for query 
+			SELECT DISTINCT YEAR(FROM_UNIXTIME(date)) AS year, MONTH(FROM_UNIXTIME(date)) AS month
+			FROM wp_wpsc_purchase_logs AS p
+			WHERE 1 = 1 AND (s1.value LIKE '%john%' OR s2.value LIKE '%john%' OR s3.value LIKE '%john%' OR p.track_id = 'john')
+			ORDER BY date DESC
+		 made by require_once('wp-admin/admin.php'), do_action('dashboard_page_wpsc-purchase-logs'), call_user_func_array, wpsc_display_purchase_logs_page, do_action('wpsc_display_purchase_logs_page'), call_user_func_array, WPSC_Purchase_Log_Page->display_list_table, include('/plugins/wp-e-commerce/wpsc-admin/includes/purchase-logs-page/list-table.php'), WP_List_Table->display, WP_List_Table->display_tablenav, WPSC_Purchase_Log_List_Table->extra_tablenav, WPSC_Purchase_Log_List_Table->months_dropdown, WPSC_Purchase_Log_List_Table->get_months
+[04-Jun-2014 01:16:29] WordPress database error Unknown column 's1.value' in 'where clause' for query 
+			SELECT SUM(totalprice)
+			FROM wp_wpsc_purchase_logs AS p
+			WHERE 1 = 1 AND (s1.value LIKE '%scott%' OR s2.value LIKE '%scott%' OR s3.value LIKE '%scott%' OR p.track_id = 'scott') AND p.processed IN (2, 3, 4) 
+		 made by require_once('wp-admin/admin.php'), do_action('load-dashboard_page_wpsc-purchase-logs'), call_user_func_array, wpsc_load_purchase_logs_page, WPSC_Purchase_Log_Page->__construct, WPSC_Purchase_Log_Page->controller_default, WPSC_Purchase_Log_List_Table->prepare_items
+[04-Jun-2014 01:16:30] WordPress database error Unknown column 's1.value' in 'where clause' for query 
+			SELECT DISTINCT YEAR(FROM_UNIXTIME(date)) AS year, MONTH(FROM_UNIXTIME(date)) AS month
+			FROM wp_wpsc_purchase_logs AS p
+			WHERE 1 = 1 AND (s1.value LIKE '%scott%' OR s2.value LIKE '%scott%' OR s3.value LIKE '%scott%' OR p.track_id = 'scott')
+			ORDER BY date DESC
+		 made by require_once('wp-admin/admin.php'), do_action('dashboard_page_wpsc-purchase-logs'), call_user_func_array, wpsc_display_purchase_logs_page, do_action('wpsc_display_purchase_logs_page'), call_user_func_array, WPSC_Purchase_Log_Page->display_list_table, include('/plugins/wp-e-commerce/wpsc-admin/includes/purchase-logs-page/list-table.php'), WP_List_Table->display, WP_List_Table->display_tablenav, WPSC_Purchase_Log_List_Table->extra_tablenav, WPSC_Purchase_Log_List_Table->months_dropdown, WPSC_Purchase_Log_List_Table->get_months
+[14-Jun-2014 23:21:00] WordPress database error Unknown column 's1.value' in 'where clause' for query 
+			SELECT SUM(totalprice)
+			FROM wp_wpsc_purchase_logs AS p
+			WHERE 1 = 1 AND (s1.value LIKE '%Ameer%' OR s2.value LIKE '%Ameer%' OR s3.value LIKE '%Ameer%' OR p.track_id = 'Ameer') AND p.processed IN (2, 3, 4) 
+		 made by require_once('wp-admin/admin.php'), do_action('load-dashboard_page_wpsc-purchase-logs'), call_user_func_array, wpsc_load_purchase_logs_page, WPSC_Purchase_Log_Page->__construct, WPSC_Purchase_Log_Page->controller_default, WPSC_Purchase_Log_List_Table->prepare_items
+[14-Jun-2014 23:21:00] WordPress database error Unknown column 's1.value' in 'where clause' for query 
+			SELECT DISTINCT YEAR(FROM_UNIXTIME(date)) AS year, MONTH(FROM_UNIXTIME(date)) AS month
+			FROM wp_wpsc_purchase_logs AS p
+			WHERE 1 = 1 AND (s1.value LIKE '%Ameer%' OR s2.value LIKE '%Ameer%' OR s3.value LIKE '%Ameer%' OR p.track_id = 'Ameer')
+			ORDER BY date DESC
+		 made by require_once('wp-admin/admin.php'), do_action('dashboard_page_wpsc-purchase-logs'), call_user_func_array, wpsc_display_purchase_logs_page, do_action('wpsc_display_purchase_logs_page'), call_user_func_array, WPSC_Purchase_Log_Page->display_list_table, include('/plugins/wp-e-commerce/wpsc-admin/includes/purchase-logs-page/list-table.php'), WP_List_Table->display, WP_List_Table->display_tablenav, WPSC_Purchase_Log_List_Table->extra_tablenav, WPSC_Purchase_Log_List_Table->months_dropdown, WPSC_Purchase_Log_List_Table->get_months
